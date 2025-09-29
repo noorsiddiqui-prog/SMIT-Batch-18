@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="first_name_label">
+                <b>First Name:</b>
+            </label>
+            <input type="text" name="last_name" placeholder="Please Enter First Name" id="first_name_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="last_name_label">
+                <b>Last Name:</b>
+            </label>
+            <input type="text" name="first_name" placeholder="Please Enter Last Name" id="last_name_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="contact_number_label">
+                <b>Contact Number:</b>
+            </label>
+            <input type="text" name="contact_number" placeholder="Please Enter Contact Number"
+                id="contact_number_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="preferred_date_label">
+                <b>Preffered Delivery Date:</b>
+            </label>
+            <input type="date" name="preferred_delivery_date" id="preferred_date_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label>
+                <b>Size:</b>
+            </label>
+
+            <br>
+
+            <input type="radio" name="size" value="small"> <span>Small</span>
+            <input type="radio" name="size" value="medium"> <span>Medium</span>
+            <input type="radio" name="size" value="large"> <span>Large</span>
+        </div>
+
+        <br>
+
+        <div>
+            <label>
+                <b>Flavour:</b>
+            </label>
+
+            <br>
+
+            <div>
+                <input type="checkbox" name="hawaiian">
+                <span> Hawaiian (Php 150.00) </span>
+                <select name="hawaiian_qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+            </div>
+            <div>
+                <input type="checkbox" name="peperroni">
+                <span> Peperroni (Php 140.00) </span>
+                <select name="peperroni_qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+            </div>
+            <div>
+                <input type="checkbox" name="vegetable">
+                <span> Vegetable (Php 130.00) </span>
+                <select name="vegetable_qty">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="credit_card_number_label">
+                <b>Credit Card Number:</b>
+            </label>
+            <input type="number" name="credit_card_number" placeholder="Please Enter Credit Card No."
+                id="credit_card_number_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pin_label">
+                <b>PIN:</b>
+            </label>
+            <input type="password" name="pin_number" placeholder="Please Enter PIN." id="pin_label">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="additional_note_label">
+                <b>Additional Note:</b>
+            </label>
+            <br>
+
+            <textarea name="additional_note" id="additional_note_label"
+                placeholder="Please enter your Additional Note"
+                cols="45" rows="10"
+            ></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit">
+            Submit Order
+        </button>
+
+    </form>
+</body>
+
+</html>
