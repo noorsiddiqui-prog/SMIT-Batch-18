@@ -1,0 +1,8 @@
+h1 {
+ background-color: pink;
+ color: blueviolet;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 900;
+ border: 1px solid blue;
+ padding: 20px;
+}
