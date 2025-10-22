@@ -6,3 +6,9 @@ h1 {
  border: 1px solid blue;
  padding: 20px;
 }
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
