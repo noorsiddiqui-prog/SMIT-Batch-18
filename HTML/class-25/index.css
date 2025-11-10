@@ -1,0 +1,17 @@
+ul {
+    width: 150px;
+}
+
+/* .illuminations {
+    list-style-position: inside;
+    color: brown;
+    list-style-type: upper-roman
+} */
+.illuminations {
+    color: brown;
+    list-style: inside decimal-leading-zero;
+}
+
+.season {
+    list-style-position: outside;
+}
