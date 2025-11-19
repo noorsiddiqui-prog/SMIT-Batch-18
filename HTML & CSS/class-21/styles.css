@@ -1,0 +1,27 @@
+.heading {
+  /* text-shadow: 30px 30px 40px red; */
+
+  background-color: #eeeeee;
+  color: #666666;
+  text-shadow: 1px 1px 0px #000000;
+}
+.heading {
+  /* text-shadow: 30px 30px 40px red; */
+
+  background-color: #eeeeee;
+  color: #666666;
+  text-shadow: 1px 1px 0px #000000;
+}
+.heading2 {
+  /* background-color: #dddddd; */
+  color: #666666;
+  text-shadow: -30px -30px 3px #666666, -40px -40px 10px greenyellow,
+    -50px -50px 10px blue;
+}
+
+.heading3 {
+  margin-top: 40px;
+  /* background-color: #bbbbbb; */
+  color: #cccccc;
+  text-shadow: -1px -2px 3px #666666;
+}

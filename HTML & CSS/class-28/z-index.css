@@ -1,0 +1,53 @@
+.paragraph {
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+}
+
+.heading {
+  position: fixed;
+  color: yellow;
+  z-index: 10;
+}
+
+.container {
+  position: relative;
+}
+
+.box1-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 40px;
+  background-color: aqua;
+  z-index: 1;
+}
+
+.box2-box {
+  position: absolute;
+  background-color: rosybrown;
+  height: 60px;
+  width: 70%;
+  left: 250px;
+  top: 90px;
+  border: 2px solid;
+  z-index: 2;
+}
+
+.box3-box {
+  position: absolute;
+  color: wheat;
+  background-color: rebeccapurple;
+  width: 45%;
+  left: 270px;
+  top: 130px;
+  height: 140px;
+  border: 2px solid;
+  z-index: 3;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+}

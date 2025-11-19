@@ -1,0 +1,40 @@
+.heading-main {
+  color: green;
+}
+
+.heading-main::first-letter {
+  color: red;
+  font-size: 5rem;
+}
+
+.heading-subtitle::first-letter {
+  color: pink;
+  font-size: 4rem;
+  background-color: yellow;
+}
+
+.paragraph::first-line {
+  color: blue;
+}
+
+.paragraph::selection {
+  color: blueviolet;
+  background-color: aqua;
+  text-shadow: 1px 1px 0px #000000;
+}
+.paragraph::target-text {
+  color: blueviolet;
+  background-color: aqua;
+}
+
+a {
+  color: green;
+}
+
+a::before {
+  content: "🔗";
+}
+a::after {
+  content: "»";
+  color: blue;
+}

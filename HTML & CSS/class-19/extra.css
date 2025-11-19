@@ -1,0 +1,22 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Great+Vibes&family=Outfit:wght@639&display=swap"); */
+/* @font-face {
+  font-family: "Great Vibes";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/greatvibes/v21/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2)
+    format("woff2");
+}
+body {
+  font-family: "Great Vibes";
+  font-size: 2rem;
+} */
+
+@font-face {
+  font-family: "Fleur De Leah";
+  src: url("fonts/FleurDeLeah-Regular.ttf");
+}
+
+body {
+  font-family: "Fleur De Leah";
+  font-size: 2rem;
+} 
