@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95vw;
+  /* padding: 0px 60px; */
+}
+
+.header-heading {
+  font-size: 24px;
+  color: #000638;
+  font-family: "Merriweather", serif;
+}
+
+.header-navigation {
+  font-family: "Roboto", sans-serif;
+  color: #605c59;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+/* .header-nav-list {
+    display: inline;
+} */
+
+.header-hamburger {
+  color: #605c59;
+  display: none;
+}
+
+@media screen and (max-width: 765px) {
+  .header-navigation {
+    display: none;
+  }
+
+  .header-hamburger {
+    color: #605c59;
+    display: block;
+  }
+}
+
+.banner-tag {
+  background-color: #283a61;
+  width: 100px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: white;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  max-width: 40%;
+}
+
+.banner-heading {
+  font-size: 46px;
+  font-family: "Merriweather", serif;
+}
+
+.banner-time-date {
+  color: #515151;
+  font-family: "Merriweather", serif;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-image {
+    /* width: 400px;
+    height: auto; */
+}
