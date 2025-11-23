@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -14,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 95vw;
-  /* padding: 0px 60px; */
+  padding: 20px 0px;
 }
 
 .header-heading {
@@ -42,17 +48,6 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 765px) {
-  .header-navigation {
-    display: none;
-  }
-
-  .header-hamburger {
-    color: #605c59;
-    display: block;
-  }
-}
-
 .banner-tag {
   background-color: #283a61;
   width: 100px;
@@ -63,29 +58,81 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.banner {
-  max-width: 40%;
+  margin-bottom: 20px;
 }
 
 .banner-heading {
   font-size: 46px;
   font-family: "Merriweather", serif;
+  max-width: 85%;
+  margin-bottom: 20px;
 }
 
 .banner-time-date {
   color: #515151;
   font-family: "Merriweather", serif;
+  margin-bottom: 20px;
 }
 
 .banner-container {
   display: flex;
   justify-content: center;
-  width: 100%;
+  margin-top: 40px;
 }
 
-.banner-image {
-    /* width: 400px;
-    height: auto; */
+.banner-container > div {
+  width: 90%; /* how wide the centered column is */
+  max-width: 900px;
+  text-align: left;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: -40px !important;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: left;
+}
+
+@media screen and (max-width: 765px) {
+  .header-navigation {
+    display: none;
+  }
+
+  .header-hamburger {
+    color: #605c59;
+    display: block;
+  }
+
+  .banner-heading {
+    font-size: 26px;
+    font-family: "Merriweather", serif;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+
+  .banner-image img {
+    height: auto;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: left;
+  }
 }
