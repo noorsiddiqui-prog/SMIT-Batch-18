@@ -108,6 +108,29 @@ body {
   text-align: left;
 }
 
+.food-list-image {
+  width: 300px;
+  height: 145px;
+  border-radius: 6px;
+}
+
+.food-list-heading {
+  font-family: "Merriweather", serif;
+  line-height: 160%;
+  width: 80%;
+}
+
+.food-list-paragraph {
+  width: 74%;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 160%;
+}
+
+.food-list-content {
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 765px) {
   .header-navigation {
     display: none;
