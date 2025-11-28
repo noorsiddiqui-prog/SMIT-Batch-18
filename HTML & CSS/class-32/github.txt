@@ -1,0 +1,39 @@
+Step 1:
+Download and install git on windows -> url: https://git-scm.com/install/windows
+
+Step 2: (Optional)
+install github desktop -> url: https://desktop.github.com/download/
+
+Step: 3
+Create Github Account/SignIn Account
+ 
+Step 4  (Optional):
+If you have github signed-in in browser then connect with github desktop
+
+Step 5: 
+Setup Github configurations
+
+Commands URL: https://gist.github.com/binarweb/6298e68026a95fab9b04b973d7b4a891
+
+git config --global user.email "your_email@example.com"
+git config --global user.name "Your User Name"
+
+Step 6:
+Check and verify configurations: 
+
+git config user.email
+git config user.name
+
+Step 7: 
+
+git status
+
+git add .
+
+git commit -m "feat: funtionality"
+
+git remote add origin [repo url]
+
+git branch -M main
+
+git push -u origin main
