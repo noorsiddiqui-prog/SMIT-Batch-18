@@ -92,7 +92,16 @@ section {
   margin-top: 40px;
   margin-bottom: 50px;
   margin-left: 40px;
+  display: flex;
+  justify-content: center;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+}
+
 
 .card {
   background-color: white;
