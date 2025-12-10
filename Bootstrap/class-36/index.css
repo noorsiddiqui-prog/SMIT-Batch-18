@@ -1,0 +1,52 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+
+  /* transition: background-color 2s; */
+  transition-property: all;
+  transition-duration: 5s;
+  transition-delay: 3s;
+}
+
+.box:hover {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(173, 240, 2);
+  border: 1px solid rgb(4, 42, 255);
+  /* transition: background-color 2s; */
+  transition-property: all;
+  transition-duration: 5s;
+  transition-delay: 3s;
+}
+
+.button {
+  margin-top: 40px;
+  width: 120px;
+  height: 60px;
+  /* background: linear-gradient(90deg,rgba(66, 172, 214, 1) 0%, rgba(189, 42, 172, 1) 52%, rgba(125, 24, 113, 1) 100%); */
+  background-color: aqua;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-container {
+  border: 1px solid green;
+  width: 500px;
+  max-height: 100px;
+}
+
+.button:hover {
+  background-color: blueviolet;
+  /* rotate: 480deg; */
+  /* margin-bottom: 10px; */
+  /* transition: background-color 4s, rotate 8s, margin-bottom 4s; */
+}
+
+.btn-container:hover {
+  padding-bottom: 40px;
+  transition: background-color 4s, padding-bottom 4s;
+}
