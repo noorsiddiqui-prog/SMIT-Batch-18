@@ -7,6 +7,10 @@ const fruit6 = "grapes";
 
 // const basket = ["apple", "banana", "cherry", "pineapple"];
 
+[0,1,2,3,1]
+[0,1,2,3,1]
+[0,1,2,3,1]
+
 const basket = [
   "Apple", "Banana", "Orange", "Mango", "PawPaw", "Strawberry", "Grape", "Kiwi", "Blueberry", "Raspberry",
   "Peach", "Pear", "Plum", "Cherry", "Watermelon", "Cantaloupe", "Honeydew", "Papaya", "Dragonfruit", "Passionfruit",
@@ -21,6 +25,11 @@ const basket = [
 ];
 
 
+// const userData = {
+//   name: "Noor",
+//   age: 50,
+//   permenentAddress: "XYZ Address"
+// }
 
 const extractedFruit = basket[3]
 console.log("extractedFruit", extractedFruit)
